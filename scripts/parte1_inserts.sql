@@ -4,58 +4,58 @@ GO
 -- INSERTS EDITORIALES
 
 INSERT INTO Editoriales (nombre, direccion)
-VALUES ('Penguin Random House Colombia', 'Cra 7 # 76-35, Bogotá');
+VALUES ('Penguin Random House Colombia', 'Cra 7 # 76-35, Bogotï¿½');
 
 INSERT INTO Editoriales (nombre, direccion)
-VALUES ('Editorial Planeta Colombia', 'Av. 68 # 75-45, Bogotá');
+VALUES ('Editorial Planeta Colombia', 'Av. 68 # 75-45, Bogotï¿½');
 
 INSERT INTO Editoriales (nombre)
 VALUES ('Editorial Norma');
 
 INSERT INTO Editoriales (nombre, direccion)
-VALUES ('Editorial Universidad de Antioquia', 'Calle 67 # 53-108, Medellín');
+VALUES ('Editorial Universidad de Antioquia', 'Calle 67 # 53-108, Medellï¿½n');
 
 INSERT INTO Editoriales (nombre, direccion)
-VALUES ('Editorial EAFIT', 'Carrera 49 # 7 Sur-50, Medellín');
+VALUES ('Editorial EAFIT', 'Carrera 49 # 7 Sur-50, Medellï¿½n');
 
 INSERT INTO Editoriales (nombre)
-VALUES ('Editorial Universidad Nacional Medellín');
+VALUES ('Editorial Universidad Nacional Medellï¿½n');
 
 INSERT INTO Editoriales (nombre, direccion)
-VALUES ('Editorial UPB', 'Circular 1 # 70-01, Medellín');
+VALUES ('Editorial UPB', 'Circular 1 # 70-01, Medellï¿½n');
 
 INSERT INTO Editoriales (nombre, direccion)
-VALUES ('Sílaba Editores', 'Calle 47D # 72-10, Medellín');
+VALUES ('Sï¿½laba Editores', 'Calle 47D # 72-10, Medellï¿½n');
 
 INSERT INTO Editoriales (nombre)
 VALUES ('Tragaluz Editores');
 
 INSERT INTO Editoriales (nombre, direccion)
-VALUES ('Fondo Editorial ITM', 'Carrera 74 # 46-52, Medellín');
+VALUES ('Fondo Editorial ITM', 'Carrera 74 # 46-52, Medellï¿½n');
 GO
 
 -- INSERTS CLIENTES
 
 INSERT INTO Clientes (id, nombre, ciudad)
-VALUES (1, 'Samuel Gutierrez', 'Medellín');
+VALUES (1, 'Samuel Gutierrez', 'Medellï¿½n');
 
 INSERT INTO Clientes (id, nombre, ciudad)
-VALUES (2, 'Danna Pérez', 'Bogotá');
+VALUES (2, 'Danna Pï¿½rez', 'Bogotï¿½');
 
 INSERT INTO Clientes (id, nombre, ciudad)
 VALUES (3, 'Carlos Galvis', 'Santa Marta'); 
 
 INSERT INTO Clientes (id, nombre, ciudad)
-VALUES (4, 'Samuel Garcia', 'Medellín');
+VALUES (4, 'Samuel Garcia', 'Medellï¿½n');
 
 INSERT INTO Clientes (id, nombre, ciudad)
-VALUES (5, 'Andrés Felipe', NULL);
+VALUES (5, 'Andrï¿½s Felipe', NULL);
 
 INSERT INTO Clientes (id, nombre, ciudad)
 VALUES (6, 'Juan Pablo', NULL);
 
 INSERT INTO Clientes (id, nombre, ciudad)
-VALUES (7, 'Ana Gabriel', 'Bogotá');
+VALUES (7, 'Ana Gabriel', 'Bogotï¿½');
 
 INSERT INTO Clientes (id, nombre, ciudad)
 VALUES (8, 'Carolina Giraldo', 'Cali');
@@ -65,4 +65,37 @@ VALUES (9, 'Sebastian Herrera', 'Barranquilla');
 
 INSERT INTO Clientes (id, nombre, ciudad)
 VALUES (10, 'Ryan Castro', NULL);
+GO
+
+-- INSERTS LIBROS
+
+INSERT INTO Libros (titulo, autor, codigo_editorial, precio, cantidad)
+VALUES ('Cien aï¿½os de soledad', 'Gabriel Garcï¿½a Mï¿½rquez', 2, 90000, 3);
+
+INSERT INTO Libros (titulo, autor, codigo_editorial, precio, cantidad)
+VALUES ('El amor en los tiempos del cï¿½lera', 'Gabriel Garcï¿½a Mï¿½rquez', 1, 75000, 10);
+
+INSERT INTO Libros (titulo, autor, codigo_editorial, precio, cantidad)
+VALUES ('La vorï¿½gine', 'Josï¿½ Eustasio Rivera', 3, 55000, 2);
+
+INSERT INTO Libros (titulo, autor, codigo_editorial, precio)
+VALUES ('Marï¿½a', 'Jorge Isaacs', 3, 85000);
+
+INSERT INTO Libros (titulo, autor, codigo_editorial, precio, cantidad)
+VALUES ('Rosario Tijeras', 'Jorge Franco', 8, 60000, 7);
+
+INSERT INTO Libros (titulo, autor, codigo_editorial, precio, cantidad)
+VALUES ('La Virgen de los Sicarios', 'Fernando Vallejo', 1, 50000, 1);
+
+INSERT INTO Libros (titulo, autor, codigo_editorial, precio, cantidad)
+VALUES ('Delirio', 'Laura Restrepo', 2, 70000, 4);
+
+INSERT INTO Libros (titulo, autor, codigo_editorial, precio, cantidad)
+VALUES ('Constituciï¿½n Polï¿½tica de Colombia de 1991', NULL, 6, 30000, 10);
+
+INSERT INTO Libros (titulo, codigo_editorial, precio, cantidad)
+VALUES ('El libro troll', 1, 65000, 5);
+
+INSERT INTO Libros (titulo, autor, codigo_editorial, precio)
+VALUES ('Investigaciones en Ciencia y Tecnologï¿½a ï¿½ UNAL', 'Varios Autores', 6, 82000);
 GO
