@@ -1,0 +1,4 @@
+CREATE DATABASE BD_Libreria_ME5;
+GO
+USE BD_Libreria_ME5;
+GO
